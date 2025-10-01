@@ -1,6 +1,6 @@
 import React from 'react';
 import logoname from '../../assets/Mumair (1).png';
-import logo2 from '../../assets/subtract.png';
+import logo2 from '../../assets/Subtract.png';
 
 
 const Footer = () => {
