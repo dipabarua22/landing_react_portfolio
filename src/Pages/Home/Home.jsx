@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Heroimage from "../../assets/Group 2.png";
-import Facebook from "../../assets/Facebook - Negative.png";
-import Twitter from "../../assets/Twitter - Negative.png";
-import Instagram from "../../assets/instagram - Negative.png";
-import Linkdin from "../../assets/LinkedIn - negative.png";
+import Facebook from "../../assets/Facebook-N.png";
+import Twitter from "../../assets/Twitter-N.png";
+import Instagram from "../../assets/Instagram-N.png";
+import Linkdin from "../../assets/LinkedIn-N.png";
 import heroimage2 from "../../assets/newimg.png";
 import Icon1 from "../../assets/icon1.png";
 import Icon2 from "../../assets/icon2.png";
