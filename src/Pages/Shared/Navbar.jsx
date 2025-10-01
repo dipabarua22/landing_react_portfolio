@@ -43,12 +43,12 @@ const Navbar = () => {
 
         {/* Desktop menu + dark mode */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link to="home" smooth duration={500}   dark:text-white className="cursor-pointer hover:text-yellow-500">Home</Link>
-          <Link to="about" smooth duration={500}  dark:text-white  className="cursor-pointer hover:text-yellow-500">About</Link>
-          <Link to="services" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Services</Link>
-          <Link to="projects" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Projects</Link>
-          <Link to="testimonials" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Testimonials</Link>
-          <Link to="contact" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Contact</Link>
+          <Link to="home" smooth duration={500}    className="cursor-pointer hover:text-yellow-500 dark:text-white ">Home</Link>
+          <Link to="about" smooth duration={500}   className="cursor-pointer hover:text-yellow-500 dark:text-white ">About</Link>
+          <Link to="services" smooth duration={500}  className="cursor-pointer hover:text-yellow-500 dark:text-white ">Services</Link>
+          <Link to="projects" smooth duration={500} className="cursor-pointer hover:text-yellow-500 dark:text-white ">Projects</Link>
+          <Link to="testimonials" smooth duration={500}   className="cursor-pointer hover:text-yellow-500 dark:text-white">Testimonials</Link>
+          <Link to="contact" smooth duration={500} className="cursor-pointer hover:text-yellow-500 dark:text-white">Contact</Link>
           <a href="/cv.pdf" download className="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600">
             Download CV
           </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
           {/* 🌗 Dark Mode Button (desktop) */}
           <button
             onClick={toggleDarkMode}
-            className="px-3 py-2 rounded-md bg-orange-500 text-white dark:bg-gray-700 dark:text-gray-100"
+            className="px-3 py-2 rounded-md bg-orange-500 text-white dark:bg-white dark:text-gray-100"
           >
             {darkMode ? "☀️" : "🌙"}
           </button>
