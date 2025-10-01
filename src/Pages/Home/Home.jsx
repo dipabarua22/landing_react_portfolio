@@ -18,6 +18,7 @@ import Webdesign6 from "../../assets/Web3.2.jpg";
 import man1 from "../../assets/Ellipse 10.png";
 import man2 from "../../assets/Ellipse 11.png";
 import herodark from '../../assets/darkmode.png';
+import Navbar from '../Shared/Navbar';
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -48,14 +49,7 @@ const Home = () => {
   return (
     <div className="pt-1">
       {/* 🌗 Dark Mode Toggle Button */}
-      <div className="fixed top-4 right-4 z-50">
-        <button
-          onClick={toggleDarkMode}
-          className="px-4 py-2 rounded-md shadow bg-orange-500 text-white dark:bg-gray-700 dark:text-gray-100 transition"
-        >
-          {darkMode ? "☀️ " : "🌙 "}
-        </button>
-      </div>
+      <Navbar></Navbar>
 
       {/* --------Home Section---------------- */}
       <section
