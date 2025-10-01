@@ -43,12 +43,12 @@ const Navbar = () => {
 
         {/* Desktop menu + dark mode */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link to="home" smooth duration={500} className="cursor-pointer hover:text-yellow-500">Home</Link>
-          <Link to="about" smooth duration={500} className="cursor-pointer hover:text-yellow-500">About</Link>
-          <Link to="services" smooth duration={500} className="cursor-pointer hover:text-yellow-500">Services</Link>
-          <Link to="projects" smooth duration={500} className="cursor-pointer hover:text-yellow-500">Projects</Link>
-          <Link to="testimonials" smooth duration={500} className="cursor-pointer hover:text-yellow-500">Testimonials</Link>
-          <Link to="contact" smooth duration={500} className="cursor-pointer hover:text-yellow-500">Contact</Link>
+          <Link to="home" smooth duration={500}   dark:text-white className="cursor-pointer hover:text-yellow-500">Home</Link>
+          <Link to="about" smooth duration={500}  dark:text-white  className="cursor-pointer hover:text-yellow-500">About</Link>
+          <Link to="services" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Services</Link>
+          <Link to="projects" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Projects</Link>
+          <Link to="testimonials" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Testimonials</Link>
+          <Link to="contact" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">Contact</Link>
           <a href="/cv.pdf" download className="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600">
             Download CV
           </a>
@@ -73,11 +73,11 @@ const Navbar = () => {
       {/* Mobile dropdown */}
       {isOpen && (
         <div className="md:hidden bg-white dark:bg-black shadow-lg flex flex-col items-center space-y-4 py-6">
-          <Link onClick={toggleMenu} to="home" smooth duration={500} dark:text-white className="cursor-pointer hover:text-yellow-500">Home</Link>
-          <Link onClick={toggleMenu} to="about" smooth duration={500}  dark:text-white className="cursor-pointer hover:text-yellow-500">About</Link>
-          <Link onClick={toggleMenu} to="services" smooth duration={500} dark:text-white className="cursor-pointer hover:text-yellow-500">Services</Link>
-          <Link onClick={toggleMenu} to="projects" smooth duration={500} dark:text-white className="cursor-pointer hover:text-yellow-500">Projects</Link>
-          <Link onClick={toggleMenu} to="contact" smooth duration={500} dark:text-white className="cursor-pointer hover:text-yellow-500">Contact</Link>
+          <Link onClick={toggleMenu} to="home" smooth duration={500}  className="cursor-pointer hover:text-yellow-500">Home</Link>
+          <Link onClick={toggleMenu} to="about" smooth duration={500}   className="cursor-pointer hover:text-yellow-500">About</Link>
+          <Link onClick={toggleMenu} to="services" smooth duration={500}  className="cursor-pointer hover:text-yellow-500">Services</Link>
+          <Link onClick={toggleMenu} to="projects" smooth duration={500}  className="cursor-pointer hover:text-yellow-500">Projects</Link>
+          <Link onClick={toggleMenu} to="contact" smooth duration={500}  className="cursor-pointer hover:text-yellow-500">Contact</Link>
           <a href="/cv.pdf" download className="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600">
             Download CV
           </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
             onClick={toggleDarkMode}
             className="px-3 py-2 rounded-md bg-orange-500 text-white dark:bg-gray-700 dark:text-gray-100"
           >
-            {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
+            {darkMode ? "☀️ " : "🌙 "}
           </button>
         </div>
       )}
