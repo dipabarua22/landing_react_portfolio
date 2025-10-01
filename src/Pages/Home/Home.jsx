@@ -48,7 +48,7 @@ const Home = () => {
   return (
     <div className="pt-1">
       {/* 🌗 Dark Mode Toggle Button */}
-      <div className="fixed top-4 right-4 z-50">
+      <div className="fixed top-4 right-4 z-40">
         <button
           onClick={toggleDarkMode}
           className="px-4 py-2 rounded-md shadow bg-orange-500 text-white dark:bg-gray-700 dark:text-gray-100 transition"
