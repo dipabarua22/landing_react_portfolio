@@ -287,7 +287,7 @@ const Home = () => {
           </form>
         </div>
       </section>
-      <section>
+      <section id="footer" className="py-20 bg-white dark:bg-black">
         <div>
           <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
             <div className="flex items-center space-x-2">
