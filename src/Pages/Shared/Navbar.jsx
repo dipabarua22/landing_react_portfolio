@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Mobile hamburger */}
         <div className="md:hidden flex items-center">
-          <button onClick={toggleMenu}>
+          <button onClick={toggleMenu} className="text-black dark:text-white">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
 
       {/* Mobile dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-white dark:bg-orange-500 shadow-lg flex flex-col items-center space-y-4 py-6">
+        <div className="md:hidden bg-white dark:bg-black shadow-lg flex flex-col items-center space-y-4 py-6">
           <Link onClick={toggleMenu} to="home" smooth duration={500}  className="cursor-pointer hover:text-yellow-500 dark:text-white">Home</Link>
           <Link onClick={toggleMenu} to="about" smooth duration={500}   className="cursor-pointer hover:text-yellow-500 dark:text-white">About</Link>
           <Link onClick={toggleMenu} to="services" smooth duration={500}  className="cursor-pointer hover:text-yellow-500 dark:text-white">Services</Link>
