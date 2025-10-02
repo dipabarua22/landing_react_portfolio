@@ -287,7 +287,7 @@ const Home = () => {
           </form>
         </div>
       </section>
-      <section id="footer" className="py-20 bg-white dark:bg-black">
+     <section id="footer" className="py-20 bg-white dark:bg-black">
   <div>
     <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 dark:bg-black dark:text-white">
       <div className="flex items-center space-x-2">
@@ -297,9 +297,9 @@ const Home = () => {
 
       <nav className="grid grid-flow-col gap-4">
         <a className="link link-hover dark:text-white">About us</a>
+        <a className="link link-hover dark:text-white">Projects</a>
+        <a className="link link-hover dark:text-white">Testimonials</a>
         <a className="link link-hover dark:text-white">Contact</a>
-        <a className="link link-hover dark:text-white">Jobs</a>
-        <a className="link link-hover dark:text-white">Press kit</a>
       </nav>
 
       <nav>
