@@ -1,5 +1,11 @@
 # 🚀 React Intern Project  
 
+Hey there 👋, welcome to my **React Intern Project**!  
+This is a modern **portfolio-style web app** I built while learning and experimenting with **React.js**, **Tailwind CSS**, and **DaisyUI**.  
+
+The goal? → To create a clean, responsive, and dark-mode-friendly website 🌙 that shows off different sections like **Home, About, Services, Projects, Testimonials, and Contact**.  
+It’s a mix of learning, design exploration, and trying to build something I’d actually be proud to use as a personal site.  
+
 [![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://reactjs.org/)  
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)  
 [![DaisyUI](https://img.shields.io/badge/DaisyUI-4.0-purple?logo=tailwindcss&logoColor=white)](https://daisyui.com/)  
