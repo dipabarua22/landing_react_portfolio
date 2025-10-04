@@ -1,16 +1,43 @@
-# React + Vite
+# 🚀 React Intern Project  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://reactjs.org/)  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)  
+[![DaisyUI](https://img.shields.io/badge/DaisyUI-4.0-purple?logo=tailwindcss&logoColor=white)](https://daisyui.com/)  
+[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)  
 
-Currently, two official plugins are available:
+A modern **React.js portfolio project** built with **Vite**, **Tailwind CSS**, and **DaisyUI**.  
+Includes dark mode support 🌙, smooth scrolling 🔄, reusable components, and a professional portfolio layout.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌍 Live Demo  
+🔗 [View Demo](https://landing-react-portfolio.vercel.app/)  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+react_intern_project/
+│── public/ # Static assets
+│── src/
+│ ├── assets/ # Images & icons
+│ ├── Layout/ # MainLayout.jsx
+│ ├── Pages/
+│ │ └── Home/ # Home.jsx (main landing page)
+│ ├── Routes/ # Routes.jsx (App routing)
+│ ├── Shared/ # Navbar.jsx, Footer.jsx
+│ ├── App.jsx # Root App component
+│ ├── main.jsx # Entry point
+│ ├── index.css # Tailwind & global styles
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+│── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- ⚛️ **React.js (Vite)** – super fast dev server & bundler  
+- 🎨 **Tailwind CSS** – utility-first styling  
+- 🌙 **DaisyUI** – prebuilt Tailwind components  
+- 📜 **React Router DOM** – for routing & layouts  
+- 🔄 **React Scroll** – smooth scrolling navigation
+
+  
